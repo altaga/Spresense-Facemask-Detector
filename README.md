@@ -1,6 +1,8 @@
 # Spresense-Facemask-Detector
 
-<img src="https://i.ibb.co/WvztyFN/image.png" width="50%">
+<p align="center">
+<img src="https://i.ibb.co/fFSZyht/image-1.png" width="50%">
+</p>
 
 Spresense-based system that monitors facemask use through EdgeImpulse.
 
@@ -217,7 +219,11 @@ Claro que esto no se puede quedar en solo AWS IoT puedes modificar la API Call p
 
 Facemask Detection:
 
-[![Image](https://i.ibb.co/WvztyFN/image.png)](PENDING!)
+[![Image](https://i.ibb.co/fFSZyht/image-1.png)](PENDING!)
+
+AWS IoT:
+
+[![Image](https://i.ibb.co/fFSZyht/image-1.png)](PENDING!)
 
 # Final Product:
 
@@ -231,6 +237,6 @@ Case close:
 
 # EPIC DEMO:
 
-[![Image](https://i.ibb.co/WvztyFN/image.png)](PENDING!)
+[![Image](https://i.ibb.co/fFSZyht/image-1.png)](PENDING!)
 
 Thanks for reading!
