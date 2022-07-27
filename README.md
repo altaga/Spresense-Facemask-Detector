@@ -209,10 +209,17 @@ Claro que esto no se puede quedar en solo AWS IoT puedes modificar la API Call p
 
 # Mini DEMO:
 
+
+
 # Final Product:
+
+<img src="https://i.ibb.co/hyXG8mM/1.png" height="270px">
+<img src="https://i.ibb.co/TkPV8Bj/20220727-003455.png" height="270px">
+<img src="https://i.ibb.co/0MRNMWt/20220727-003336.png" height="270px">
+<img src="https://i.ibb.co/L0mLFXv/20220727-003341.png" height="270px">
 
 # EPIC DEMO:
 
-
+[![Image](https://i.ibb.co/WvztyFN/image.png)](https://youtu.be/cMODf4ynLUc)
 
 Thanks for reading!
