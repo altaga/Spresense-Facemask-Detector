@@ -6,7 +6,13 @@ Spresense-based system that monitors facemask use through EdgeImpulse.
 
 # Introduction:
 
+El Covid-19, ha impactado al mundo como muy pocas pandemias a lo largo de la historia humana, que no ha sido tan letal como otras pandemias en grado de mortalidad ya hemos tenido cerca de [6,400,000](https://coronavirus.jhu.edu/map.html) segun la universidad de Johns Hopkins (08-01-2022).
 
+Aunque ya ha sido vacunada mucha de la poblacion mundial, a lo largo de estos 3 años el virus ha tenido mutaciones, las cuales segun la [WHO](https://www.who.int/data/gho/publications/world-health-statistics) aun sigue vigente al dia de hoy (08-01-2022).
+
+<img src="https://i.ibb.co/tXdDZMw/image.png">
+
+Debido a esto, el uso de cubrebocas, aun se tengan ya las vacunas, sigue siendo indispensable para la salud publica de cada pais.
 
 # Solution:
 
@@ -207,19 +213,24 @@ En la segunda modificacion, vamos a mandar todos los resultados a AWS IoT desde 
 
 Claro que esto no se puede quedar en solo AWS IoT puedes modificar la API Call para mandar los datos a cualquier otro sitio, solo cambiando la URL.
 
-# Mini DEMO:
+# Mini DEMOS:
 
+Facemask Detection:
 
+[![Image](https://i.ibb.co/WvztyFN/image.png)](PENDING!)
 
 # Final Product:
 
-<img src="https://i.ibb.co/hyXG8mM/1.png" height="270px">
-<img src="https://i.ibb.co/TkPV8Bj/20220727-003455.png" height="270px">
-<img src="https://i.ibb.co/0MRNMWt/20220727-003336.png" height="270px">
-<img src="https://i.ibb.co/L0mLFXv/20220727-003341.png" height="270px">
+Case open:
+
+<img src="https://i.ibb.co/hyXG8mM/1.png" height="270px"><img src="https://i.ibb.co/TkPV8Bj/20220727-003455.png" height="270px">
+
+Case close:
+
+<img src="https://i.ibb.co/0MRNMWt/20220727-003336.png" height="270px"><img src="https://i.ibb.co/L0mLFXv/20220727-003341.png" height="270px">
 
 # EPIC DEMO:
 
-[![Image](https://i.ibb.co/WvztyFN/image.png)](https://youtu.be/cMODf4ynLUc)
+[![Image](https://i.ibb.co/WvztyFN/image.png)](PENDING!)
 
 Thanks for reading!
