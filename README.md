@@ -1,19 +1,26 @@
 # Spresense-Facemask-Detector
 
- Spresense-based system that monitors facemask use through EdgeImpulse.
+<img src="https://i.ibb.co/WvztyFN/image.png" width="50%">
 
+Spresense-based system that monitors facemask use through EdgeImpulse.
 
 # Introduction:
 
+
+
 # Solution:
 
-# Features:
+Creamos un sistema basado en la Sony's Spresense board el cual gracias a su camara y el framework de Edge Impulse, somos capaces de crear un sistema de deteccion de cubrebocas para la entrada de un hogar, fiable y sencillo.
 
 # Connection Diagram:
 
 ## Backend Diagram:
 
-## Hardware Diagram:
+<img src="https://i.ibb.co/cgSPHJ4/Scheme-drawio.png">
+
+## Hardware:
+
+<img src="https://i.ibb.co/jJgm40s/Image.png">
 
 # Edge Impulse:
 
