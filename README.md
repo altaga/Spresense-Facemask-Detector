@@ -89,7 +89,7 @@ Una vez realizamos el flash del binario en nuestro device, podremos correr el si
 
     edge-impulse-run-impulse --debug
 
-
+<img src="https://i.ibb.co/br72J2t/image.png">
 
 Podria llegar a variar segun la pc, pero en nuestro caso una vez ejecutado este codigo podremos ver en cualquier navegador las imaganes y predicciones de nuetro device en tiempo real.
 
@@ -123,11 +123,29 @@ Ahora ya que tenemos el software correcto, tenemos que ademas tener a donde mand
 
 ### AWS IoT:
 
+En este caso deberemos tener acceso AWS IoT, sin embargo la unica consideracion que hay que tener es la region. Para nuestro caso us-west-1.
+
+<img src="https://i.ibb.co/gz6cqkT/image.png">
+
 ### AWS Lambda:
+
+Para poder mandar datos a AWS IoT como si fueramos un device, usaremos una funcion lambda.
+
+<img src="https://i.ibb.co/N7fcKX2/image.png">
+
+Ya la funcion lambda esta en la carpeta [Lambda](./Lambda/lambda_function.py).
 
 ### AWS IAM:
 
+Tenemos ademas que darle permisos a la Lambda para acceder a los recursos de AWS IoT, entonces en el servicios de IAM confifuraremos los permisos para la lambda.
+
+<img src="https://i.ibb.co/7tmX0Px/image.png">
+
 ### API Gateway:
+
+Ahora como fase final del proceso, deberemos crear una API con la cual podamos acceder y mandar los datos desde nuestra pagina web a AWS.
+
+<img src="https://i.ibb.co/ZK1SvH1/image.png">
 
 ## Edge Impulse Cli Soft Hack:
 
@@ -142,7 +160,7 @@ Primero alteramos el evento de connect para avisar a la consola de AWS que hay u
     socket.on('connect', () => {
             var config = {
                 method: 'get',
-                url: 'https://10xq37xwth.execute-api.us-east-1.amazonaws.com',
+                url: 'https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/General-IoT-Device',
                 headers: {
                     "device": "spres",
                     "topic": "connect",
@@ -166,7 +184,7 @@ En la segunda modificacion, vamos a mandar todos los resultados a AWS IoT desde 
         els.timePerInference.textContent = opts.timeMs;
         axios({
             method: 'get',
-            url: 'https://10xq37xwth.execute-api.us-east-1.amazonaws.com/General-IoT-Device',
+            url: 'https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/General-IoT-Device',
             headers: {
                 "device": "spres",
                 "topic": "result",
