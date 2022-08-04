@@ -10,7 +10,7 @@ Spresense-based system that monitors facemask use through EdgeImpulse.
 
 Covid-19 has impacted the world like very few pandemics throughout human history. Although it has not been as lethal as other pandemics in terms of mortality, we have already had about [6,400,000](https://coronavirus.jhu .edu/map.html) lethal cases according to Johns Hopkins University (01-08-2022).
 
-Although much of the world's population has already been vaccinated, throughout these 3 years the virus has had mutations, which according to the [WHO](https://www.who.int/data/gho/publications/world- health-statistics) is still valid as of today (01-08-2022).
+Although much of the world's population has already been vaccinated, throughout these 3 years the virus has had mutations, which according to the [WHO](https://www.who.int/data/gho/publications/world-health-statistics) is still valid as of today (01-08-2022).
 
 <img src="https://i.ibb.co/tXdDZMw/image.png">
 
