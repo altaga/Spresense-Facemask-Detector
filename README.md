@@ -18,7 +18,7 @@ Due to this, the use of face masks, even if they already have the vaccines, cont
 
 # Solution:
 
-We created a system based on Sony's Spresense board which, thanks to its camera and the Edge Impulse framework, we are able to create a reliable and simple mask detection system for the entrance of a home.
+We created a system based on Sony's Spresense board which, thanks to its camera and the Edge Impulse framework, we are able to create a reliable and simple mask detection system.
 
 # Connection Diagram:
 
