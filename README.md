@@ -219,11 +219,11 @@ Claro que esto no se puede quedar en solo AWS IoT puedes modificar la API Call p
 
 Facemask Detection:
 
-[![Image](https://i.ibb.co/fFSZyht/image-1.png)](PENDING!)
+[![Image](https://i.ibb.co/fFSZyht/image-1.png)](https://youtu.be/nqbx9q1HxZU)
 
 AWS IoT:
 
-[![Image](https://i.ibb.co/fFSZyht/image-1.png)](PENDING!)
+[![Image](https://i.ibb.co/fFSZyht/image-1.png)](https://youtu.be/Uoa5IXYL2Cs)
 
 # Final Product:
 
